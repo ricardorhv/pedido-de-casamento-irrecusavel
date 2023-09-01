@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-box: none;
+}
+
+body {
+  background: linear-gradient(90deg, #ff5858 0.09%, #ffc8c8 99.92%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  height: 100vh;
+
+  position: relative;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+div {
+  display: flex;
+  gap: 4.25rem;
+  justify-content: center;
+
+  margin-top: 3rem;
+}
+
+button {
+  border: none;
+  outline: none;
+
+  box-shadow: 4px 4px 4px #00000020;
+  padding: 1.5rem 6rem;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button#buttonYes {
+  background: #88ff2a;
+}
+
+button#buttonNo {
+  background: #ef4646;
+}
